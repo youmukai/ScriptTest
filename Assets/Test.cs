@@ -25,7 +25,7 @@ public class Boss
     public void Magic()
     {
         
-        if (5<mp)
+        if (5<=mp)
         {
             this.mp -= 5;
             Debug.Log("魔法攻撃をした。残りMPは" + this.mp);
